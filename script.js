@@ -10,13 +10,13 @@ window.addEventListener("load", function() {
 
 
 document.querySelector("#close").addEventListener("click", function() {
-    document.querySelector(".popup").style.display = "none";
     document.getElementById("overlay").style.display = "none";
+    document.querySelector(".popup").style.display = "none";
 });
 
 
 // Transfer Input value to inner HTML
-function myFunction() {
-    var x = document.getElementById("myText").value;
-    document.getElementById("demo").innerHTML = x;
+function submit() {
+    var x = document.getElementById("input").value;
+    document.getElementById("username").innerHTML = x;
   }
