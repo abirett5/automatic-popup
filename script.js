@@ -20,3 +20,7 @@ function submit() {
     var x = document.getElementById("input").value;
     document.getElementById("username").innerHTML = x;
   }
+
+  if (x === "") {
+    document.getElementById('username').innerHTML = "User"
+  }
